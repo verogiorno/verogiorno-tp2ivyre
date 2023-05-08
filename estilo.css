@@ -19,3 +19,115 @@
 body{
     background-color: blueviolet;
 }
+
+/* Start Nav */
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-nav{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    width: 65%;
+    padding-top: 1.3em;
+}
+
+.yvire{
+    padding-left: 2em;
+    padding-right: 5em;
+    letter-spacing: -0.16536em;
+    font-family: 'PT Serif', serif;
+    font-size: 3em;
+}
+
+.left-links{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    padding-right: 6em;
+}
+
+.lefta1, .lefta2, .lefta3, .lefta4{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-right: 7em;
+}
+
+.lefta1:hover, .lefta2:hover, .lefta3:hover, .lefta4:hover{
+    color: #8C847A;
+    transform: scale(1.1);
+    transition: .5s;   
+}
+
+
+.right-nav{
+    background-color: #D6BDA6;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 2em;
+    width: 35%;
+}
+
+.bi1, .bi2{
+    font-size: 1.4em;
+    cursor: pointer;
+}
+
+.bi1:hover, .bi2:hover{
+    color: #8C847A;
+}
+
+.bi2{
+    margin-left: 1em;
+    padding-right: 1.5em;
+    border-right: solid 0.0625em #8C847A;
+}
+
+.badge {
+    position: absolute;
+    right: 27.8em;
+    top: 3.1em;
+    padding: 0.03125em 0.4em;
+    border-radius: 50%;
+    background-color: #F1EADC;
+    color: black;
+    border: 0.0625em solid black;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: smaller;
+}
+
+.si , .su{
+    color: black;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.si{
+    margin-left: 1.5em;
+    padding-right: 1.5em;
+}
+
+.si:hover{
+    color: #8C847A;
+}
+
+.su{
+    border: solid 0.15em black;
+    padding: .3em 1.5em .3em 1.5em; 
+    background-color: transparent;
+    margin-right: 5em;    
+}
+
+.su:hover{
+    transform: scale(1.1);
+    transition: .5s;
+}
+/* End Nav */
