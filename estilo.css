@@ -1,0 +1,21 @@
+/* Letra logo */
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+/* Letra nav */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+/* Letra h1 main*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+/* Letra SHOP NOW */
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau&display=swap');
+/* Letra text main*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+HK:wght@300&display=swap');
+/* Letra Números */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+*{
+    margin: 0em;
+    padding: 0em;
+}
+
+body{
+    background-color: blueviolet;
+}
